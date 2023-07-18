@@ -1,16 +1,17 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* NAVBAR-CSS */
 
 .navbar-container{
 align-items: center;
@@ -48,6 +49,8 @@ padding: 16px;
   box-sizing: border-box;
 }
 
+
+/* FOOTER-CSS */
 
 .container{
   padding-left: 1rem;
@@ -113,8 +116,11 @@ h3{
 }
 a{
   text-decoration: none;
-  color: black;
+  color: white;
 
+}
+.a-link{
+  color:black;
 }
 
 li{
@@ -123,4 +129,57 @@ li{
   font-weight:500;
 
   font-size: 18px;
+}
+
+
+/* SECTION-1-CSS */
+.section1-container{
+  background-image: url(./images/bkg.jpg);
+  align-items: center;
+  background-position: 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.section1-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.section1-subtitle {
+  color: #fff;
+  font-size: 20px;
+  margin-top: 16px;
+}
+
+.section1-button{
+  
+    all: unset;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+    padding: 14px 18px;
+}
+
+
+/* SECTION-2-CSS */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ 
+  padding: 10px;
+}
+.grid-item {
+
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
 }
