@@ -1,10 +1,11 @@
 import React from 'react'
-import bkg from '../images/bkg.jpg'
+import Section1 from './Section1'
 
 function Body() {
   return (
     <div>
-        <img src={bkg} ></img>
+      
+      <Section1></Section1>
     </div>
   )
 }

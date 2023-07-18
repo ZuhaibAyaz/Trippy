@@ -9,8 +9,8 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     
-<Nav></Nav>
-<Body></Body>
+    <Nav></Nav>
+    <Body></Body>
 <Footer></Footer>
 
   </React.StrictMode>

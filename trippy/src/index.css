@@ -14,7 +14,8 @@ code {
 
 .navbar-container{
 align-items: center;
-background-color:green ;
+background-color: white;
+
 border-radius: 10px;
 
 display: flex;
@@ -38,6 +39,7 @@ padding: 16px;
   padding: 0 16px;
 }
 
+
 .navbar {
   padding: 0 20px;
   width: 100%;
@@ -48,14 +50,16 @@ padding: 16px;
 
 
 .container{
+  padding-left: 1rem;
+  padding-right: 1rem;
   display: grid;
-  grid-gap: 5%;
+  grid-gap: 3%;
   grid-template-columns: repeat(4, minmax(300px,1fr));
  
   list-style: none;
 }
 
-@media(max-width: 900px){
+@media(max-width: 1080px){
   .container{
       grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
      
@@ -63,10 +67,12 @@ padding: 16px;
 
 }
 .footer{
-  padding: 1rem;
-  background-color: cornflowerblue;
+  padding: 1.5rem;
+  background-color: #2C3639;
+ color: white;
   box-sizing: border-box;
   margin-top: 1rem;
+  
 }
 .footer-container{
   box-sizing: border-box;
@@ -79,7 +85,10 @@ padding: 16px;
 .heading{
   box-sizing: border-box;
   padding-top: 1rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 1.5rem;
+ 
+
 }
 .footer-title{
   box-sizing: border-box;
@@ -89,13 +98,29 @@ padding: 16px;
 .footer-subtitle{
   font-size: 18px;
 }
+.project{
 
+  padding-left: 12px;
+  padding-right: 12px;
+}
+h3{
+  box-sizing: border-box;
+  font-weight: 700;
+  font-size: 1.25rem;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  line-height: 1.2;
+}
 a{
   text-decoration: none;
+  color: black;
 
 }
 
 li{
-  padding: 0.5rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight:500;
+
   font-size: 18px;
 }
