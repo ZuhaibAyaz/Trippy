@@ -1,7 +1,9 @@
 import React from "react";
 import img1 from "../images/img1.jpg";
 import img2 from "../images/img2.jpg";
-import Section3 from "./Section3";
+import img3 from "../images/img3.jpg";
+
+import Cards from "./Cards";
 
 function Body() {
   return (
@@ -50,13 +52,17 @@ function Body() {
               </div>
 
               <div class="grid-item">
-                <img src={img1} alt="" />
+                <center>
+                  <img src={img2} alt="" />
+                </center>
               </div>
             </div>
 
             <div className="row2">
               <div class="grid-item">
-                <img src={img2} alt="" />
+                <center>
+                  <img src={img1} alt="" />
+                </center>
               </div>
 
               <div class="grid-item">
@@ -80,12 +86,42 @@ function Body() {
         </div>
       </section>
 
-     <section className="SECTION3">
-<Section3></Section3>
-     </section>
+      <section className="SECTION3">
+        <div>
+          <div className="section2-title-container">
+            <div className="section2-title">Recent Trips</div>
+            <div className="section2-subtitle">
+              You can discover unique destinations using Google Maps.
+            </div>
+          </div>
 
+          <div class="card-grid-container">
+            <div class="card-grid-item">
+              <Cards
+                image={img1}
+                title="Trip in Indonesia"
+                desc="Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans. It consists of over 17,000 islands, including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea."
+              />
+            </div>
 
+            <div class="card-grid-item">
+              <Cards
+                image={img3}
+                title="Trip in Malaysia"
+                desc="Malaysia is a Southeast Asian country occupying parts of the Malay Peninsula and the island of Borneo. It's known for its beaches, rainforests and mix of Malay, Chinese, Indian and European cultural influences."
+              />
+            </div>
 
+            <div class="card-grid-item">
+              <Cards
+                image={img2}
+                title="Trip in France"
+                desc="Indonesia, officially the Republic of Indonesia, is a country in Southeast Asia and Oceania between the Indian and Pacific oceans. It consists of over 17,000 islands, including Sumatra, Java, Sulawesi, and parts of Borneo and New Guinea."
+              />
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
