@@ -1,6 +1,7 @@
 import React from "react";
 import img1 from "../images/img1.jpg";
 import img2 from "../images/img2.jpg";
+import Section3 from "./Section3";
 
 function Body() {
   return (
@@ -78,6 +79,13 @@ function Body() {
           </div>
         </div>
       </section>
+
+     <section className="SECTION3">
+<Section3></Section3>
+     </section>
+
+
+
     </div>
   );
 }
