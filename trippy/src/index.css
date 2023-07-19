@@ -185,7 +185,7 @@ li {
   box-sizing: border-box;
   padding: 26px 0;
 }
-.section2-title {
+.title2 {
   font-size: 40px;
   font-weight: 700;
   text-align: center;
@@ -288,4 +288,40 @@ img {
   .card-grid-container {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
+}
+
+
+/* ABOUT SECTION */
+
+.section2-container {
+  background-image: url(./images/bkg2.jpg);
+  align-items: center;
+  background-position: 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  height: 50vh;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.section2-title {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.about-title{
+  font-size: 30px;
+    font-weight: 700;
+    padding: 1rem 3rem;
+    text-align: justify;
+
+}
+.about-desc{
+  font-size: 18px;
+  padding: 0rem 3rem;
+  padding-bottom: 1rem;
+
+  text-align: justify;
 }

@@ -27,7 +27,7 @@ function Body() {
       <section className="SECTION2">
         <div>
           <div className="section2-title-container">
-            <div className="section2-title">Popular Destinations</div>
+          <div className="title2">Popular Destinations</div>
             <div className="section2-subtitle">
               Tours give you the opportunity to see a lot, within a time frame
             </div>
@@ -89,7 +89,7 @@ function Body() {
       <section className="SECTION3">
         <div>
           <div className="section2-title-container">
-            <div className="section2-title">Recent Trips</div>
+            <div className="title2">Recent Trips</div>
             <div className="section2-subtitle">
               You can discover unique destinations using Google Maps.
             </div>
